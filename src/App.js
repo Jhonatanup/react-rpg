@@ -42,7 +42,6 @@ class App extends Component {
 	}
 	componentDidMount() {
 		this.myRef.current.focus()
-		console.log('didmount', this.myRef);
 	}
 
 	walk = (ev) => {
